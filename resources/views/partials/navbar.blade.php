@@ -34,7 +34,7 @@
               <a href="#"
                 class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Prestasi
                 Dan Penghargaan</a>
-              <a href="#"
+              <a href="{{ route('campus-life') }}"
                 class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Kehidupan
                 Kampus</a>
             </div>
@@ -51,13 +51,10 @@
             class="absolute top-full left-0 w-64 bg-white shadow-xl rounded-b-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out pt-2">
             <div class="border-t-4 border-red-800 bg-white py-2">
               <a href="#"
-                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Program
-                Sarjana</a>
-              <a href="#"
-                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Program
-                Magister</a>
-              <a href="#"
                 class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Kurikulum</a>
+              <a href="#"
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Prospek
+                Karir</a>
             </div>
           </div>
         </div>
@@ -72,10 +69,22 @@
             class="absolute top-full left-0 w-64 bg-white shadow-xl rounded-b-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out pt-2">
             <div class="border-t-4 border-red-800 bg-white py-2">
               <a href="#"
-                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Pusat
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Kelompok
+                Keahlian</a>
+              <a href="#"
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Riset
+                Unggulan</a>
+              <a href="#"
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Kegiatan
                 Riset</a>
               <a href="#"
-                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Publikasi</a>
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Jurnal</a>
+
+              <a href="#"
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Konferensi</a>
+
+              <a href="#"
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">E-Proceeding</a>
             </div>
           </div>
         </div>
@@ -90,9 +99,14 @@
             class="absolute top-full left-0 w-64 bg-white shadow-xl rounded-b-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out pt-2">
             <div class="border-t-4 border-red-800 bg-white py-2">
               <a href="#"
-                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Berita</a>
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Proyek
+                Mahasiswa</a>
               <a href="#"
-                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Event</a>
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Prestasi
+                Mahasiswa</a>
+              <a href="{{ route('news') }}"
+                class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Artikel &
+                Berita</a>
             </div>
           </div>
         </div>

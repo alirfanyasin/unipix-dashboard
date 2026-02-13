@@ -22,6 +22,22 @@ Route::get('/staf-pengajar/{name}', function ($name) {
 })->name('lecturer-detail');
 
 
+Route::get('/kehidupan-kampus', function () {
+    return view('pages.campus-life');
+})->name('campus-life');
+
+
+Route::get('/artikel-dan-berita', function () {
+    return view('pages.news');
+})->name('news');
+
+Route::get('/artikel-dan-berita/{title}', function ($title) {
+    return view('pages.news-detail', compact('title'));
+})->name('news-detail');
+
+
+
+
 
 // Authentication Route
 Route::get('/login', function () {
