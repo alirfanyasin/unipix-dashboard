@@ -18,10 +18,10 @@
 </head>
 
 <body class="bg-gray-100">
-  @include('components.sidebar')
+  @include('partials.sidebar-app')
   <!-- Main Content -->
   <div class="lg:ml-64">
-    @include('components.navbar')
+    @include('partials.navbar-app')
 
     <!-- Content Area -->
     <main class="p-4 md:p-6">

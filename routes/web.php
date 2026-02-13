@@ -2,13 +2,25 @@
 
 use Illuminate\Support\Facades\Route;
 
+
+
+// Page Route
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
 });
 
 
 
-// Dashboard
+
+// Authentication Route
+Route::get('/login', function () {
+    return view('pages.auth.login');
+})->name('login');
+
+
+
+
+// Dashboard Route
 Route::prefix('app')->group(function () {
     Route::get('/dashboard', function () {
         return view('pages.app.dashboard');

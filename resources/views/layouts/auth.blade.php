@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>@yield('title', 'Default Title')</title>
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 
   {{-- Library --}}
@@ -15,13 +15,10 @@
 </head>
 
 <body class="bg-gray-100">
-  <!-- Main Content -->
-  <div class="lg:ml-64">
-    <!-- Content Area -->
-    <main class="p-4 md:p-6">
-      @yield('content')
-    </main>
-  </div>
+  <!-- Main Content Area -->
+  <main class="w-full h-screen flex items-center justify-center">
+    @yield('content')
+  </main>
 
   {{-- Javascript Custom --}}
   @stack('js')
