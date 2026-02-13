@@ -28,7 +28,7 @@
               <a href="{{ route('department-profile') }}"
                 class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Profil
                 Program Studi</a>
-              <a href="#"
+              <a href="{{ route('lecturer-profile') }}"
                 class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Staf
                 Pengajar</a>
               <a href="#"

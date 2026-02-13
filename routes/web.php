@@ -13,6 +13,9 @@ Route::get('/profil-program-studi', function () {
     return view('pages.department-profile');
 })->name('department-profile');
 
+Route::get('/staf-pengajar', function () {
+    return view('pages.lecturer-profile');
+})->name('lecturer-profile');
 
 
 
