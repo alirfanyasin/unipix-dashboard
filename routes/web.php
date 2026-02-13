@@ -17,6 +17,10 @@ Route::get('/staf-pengajar', function () {
     return view('pages.lecturer-profile');
 })->name('lecturer-profile');
 
+Route::get('/staf-pengajar/{name}', function ($name) {
+    return view('pages.lecturer-detail', compact('name'));
+})->name('lecturer-detail');
+
 
 
 // Authentication Route

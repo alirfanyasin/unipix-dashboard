@@ -12,7 +12,7 @@
     <p class="pl-3 border-l border-l-red-800 text-gray-500 mb-4">
       {{ $expertise }}
     </p>
-    <a href=""
+    <a href="/staf-pengajar/Dr Dyah Putri Rahmawati"
       class="inline-block text-red-800 px-7 py-2 border border-red-800 hover:bg-red-800 hover:text-white">
       Lihat Selengkapnya
     </a>
