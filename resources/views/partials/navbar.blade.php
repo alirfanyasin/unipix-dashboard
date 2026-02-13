@@ -10,7 +10,7 @@
       </div>
 
       <nav class="hidden lg:flex items-center gap-8 ml-auto mr-8">
-        <a href="#"
+        <a href="/"
           class="text-gray-800 hover:text-red-800 font-medium transition-colors duration-200 text-[15px]">
           Beranda
         </a>
@@ -25,7 +25,7 @@
           <div
             class="absolute top-full left-0 w-64 bg-white shadow-xl rounded-b-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out pt-2">
             <div class="border-t-4 border-red-800 bg-white py-2">
-              <a href="#"
+              <a href="{{ route('department-profile') }}"
                 class="block px-6 py-2.5 text-sm text-gray-600 hover:text-red-800 hover:pl-7 transition-all">Profil
                 Program Studi</a>
               <a href="#"

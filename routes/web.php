@@ -9,6 +9,10 @@ Route::get('/', function () {
     return view('pages.index');
 });
 
+Route::get('/profil-program-studi', function () {
+    return view('pages.department-profile');
+})->name('department-profile');
+
 
 
 
